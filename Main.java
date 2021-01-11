@@ -54,7 +54,7 @@ public class Main {
                     break;
                 case 2:
                     inhe.setN(27583);
-                    System.out.println("Detik Yang Dimasukkan : " + inhe.getN());
+                    System.out.print("Detik Yang Dimasukkan : " + inhe.getN());
 
                     System.out.println("Output : ");
                     inhe.hasil();
@@ -77,7 +77,7 @@ public class Main {
                 default:
                     try {
                         if (menu > 4) {
-                            throw new Exception("Mohon Lihat Lagi Jumlah Menu Nya");
+                            throw new Exception("Terima Kasih Sudah Memakai Program Saya");
                         }
                     } catch (Exception e) {
                         System.out.println(e);
